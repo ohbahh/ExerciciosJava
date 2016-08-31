@@ -1,0 +1,28 @@
+package lista1;
+import java.util.Scanner;
+
+public class Exercicio8 {
+
+    public static void main(String[] args) {
+       int custo,imposto,lucro,preco,porcent_dist,porcent_imposto;
+       
+       System.out.print("Preço de fabrica do Automóvel :");
+       Scanner sc1 = new Scanner(System.in);
+       preco = sc1.nextInt();
+       
+         System.out.print("Percentual de Lucro :");
+       porcent_dist = sc1.nextInt();
+       
+         System.out.print("Percentual de Imposto:");
+      porcent_imposto = sc1.nextInt();
+       
+       
+       lucro=((preco*porcent_dist)/100);
+       imposto=((preco*porcent_imposto)/100);
+       custo=(preco+lucro+imposto);
+
+       System.out.print("Lucro do distribuidor: "+lucro+"\n valor do imposto: "+imposto+"\n custo total "+
+        custo+"\n");
+    }
+    
+}

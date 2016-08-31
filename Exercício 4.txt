@@ -1,0 +1,16 @@
+
+package lista1;
+
+public class Exercicio4 {
+
+    public static void main(String[] args) {
+       int custo,imposto,lucro,preco=35000,porcent_dist=25,porcent_imp=15;
+       lucro=((preco*porcent_dist)/100);
+       imposto=((preco*porcent_imp)/100);
+       custo=(preco+lucro+imposto);
+System.out.print("Lucro do distribuidor: "+lucro+"\n valor do imposto: "+imposto+"\n custo total "+
+        custo+"\n");
+    }
+    
+   
+}

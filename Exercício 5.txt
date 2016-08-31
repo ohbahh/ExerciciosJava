@@ -1,0 +1,24 @@
+package lista1;
+import java.util.Scanner;
+public class Exercicio5 {
+
+    public static void main(String[] args) {
+       int aumento;
+       int salario;
+       int nvsalario;
+       int porct;
+      
+       System.out.print("Salário do funcionário ?");
+     Scanner sc1 = new Scanner(System.in);
+     salario = sc1.nextInt();
+     System.out.print("Percentual de Aumento ?");
+     porct = sc1.nextInt();
+     
+     aumento=((salario*porct)/100);
+      nvsalario=aumento+salario;
+    
+      System.out.print("Salário do funcionário = "+nvsalario+"\n Aumento acre"
+              + "scentado = "+aumento);
+    }
+    
+}

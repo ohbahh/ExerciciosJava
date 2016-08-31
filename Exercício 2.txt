@@ -1,0 +1,20 @@
+package lista1;
+
+
+public class Exercicio2 {
+
+    public static void main(String[] args) {
+        int salario=1500;
+        int salarior;
+        int grat;
+        int imposto;
+    
+        grat=(salario*5)/100;
+        imposto=(salario*7)/100;
+        salarior=(salario+grat)-imposto;
+        
+        System.out.print("Imposto descontado :"+imposto+"\n Gratificaçao recebida :"+grat
+        +"\n Salário a receber: "+salarior);
+    }
+    
+}

@@ -1,0 +1,19 @@
+package lista1;
+
+public class Exercicio1 {
+
+   
+    public static void main(String[] args) {
+       int aumento;
+       int salario=2500;
+       int nvsalario;
+       int porcaumento=10;
+      aumento=((salario*porcaumento)/100);
+      nvsalario=aumento+salario;
+      
+      System.out.print("O valor do aumento foi:"+aumento+"\n e o novo valor do salario: "
+      + nvsalario);
+       
+    }
+    
+}

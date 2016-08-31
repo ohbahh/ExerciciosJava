@@ -1,0 +1,15 @@
+package lista1;
+
+public class Exercicio3 {
+
+    public static void main(String[] args) {
+    int rend,valortotal,dep=500,taxajuros=3;
+
+rend=((dep*taxajuros)/100);
+valortotal=(dep+rend);
+
+System.out.print("Rendimento:"+rend+"\n Valor total:"+valortotal+"\n");
+
+    }
+    
+}
